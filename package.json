@@ -1,0 +1,24 @@
+{
+    "name": "wc3-ts-example",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "dev": "ts-node ./scripts/dev.ts",
+        "build": "ts-node ./scripts/build.ts",
+        "clean": "ts-node ./scripts/clean.ts",
+        "test": "ts-node ./scripts/test.ts"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.13",
+        "fdir": "^5.2.0",
+        "fs-extra": "^10.1.0",
+        "lua-types": "^2.12.0",
+        "mdx-m3-viewer": "^5.12.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.7.4",
+        "typescript-to-lua": "^1.8.1",
+        "war3-types-strict": "github:Z-Machine/war3-types-strict"
+    }
+}

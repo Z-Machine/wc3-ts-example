@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "newLine": "lf",
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "baseUrl": "src",
+        "rootDir": "src",
+        "outDir": "out",
+        "paths": {},
+        "plugins": []
+    },
+    "tstl": {
+        "noHeader": true,
+        "luaTarget": "5.3",
+        "luaLibImport": "require",
+        "noImplicitSelf": true,
+        "noImplicitGlobalVariables": true,
+        "buildMode": "default",
+        "luaBundle": "tstl_output.lua",
+        "luaBundleEntry": "./src/index.ts"
+    },
+    "include": ["src"]
+}
