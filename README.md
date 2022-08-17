@@ -1,4 +1,4 @@
-# wc3-ts-template
+# wc3-ts-example
 
 ## Work in Progress
 
@@ -9,7 +9,7 @@ An easy to use template to get you started coding in TypeScript for Warcraft III
 ## Usage
 
 ```bash
-npx degit github:Z-Machine/wc3-ts-template my-new-project
+npx degit github:Z-Machine/wc3-ts-example my-new-project
 cd ./my-new-project
 npm i
 code .
